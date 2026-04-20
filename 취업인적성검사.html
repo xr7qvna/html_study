@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 300px;
+            background-color: pink;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend>미림적성검사</legend>
+        <!--이름/성별/생년월일/전화번호/관심사/혈액형/선호색-->
+        <form>
+            name: <input type="text" size="10"> <br>
+            gender: <input type="radio" name="gender">man
+            <input type="radio" name="gender">woman <br>
+            birth: <input type="date"> <br>
+            mobile: <input type="tel" size="15"> <br>
+            interest: <input type="checkbox">게임<input type="checkbox">노래<input type="checkbox">옷 <br>
+            blood: <input type="radio" name="blood">A
+            <input type="radio" name="blood">B
+            <input type="radio" name="blood">AB
+            <input type="radio" name="blood">O <br>
+            job: <select name="" id="">
+                <option value="dancer">dancer</option>
+                <option value="programmer">programmer</option>
+                <option value="marketing">marketing</option>
+                <option value="singer">singer</option>
+            </select> <br>
+
+            favorite color:<input type="color"><br>
+            자기소개서: <br>
+            <textarea name="" id="" rows="5" cols=30>
+            </textarea> <br>
+            <input type="submit">
+            <input type="reset" value ="취소">
+        </form>
+    </fieldset>
+</body>
+</html>
